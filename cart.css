@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.cart-right{
+    /* background-color: aqua; */
+    margin-left: 80px;
+    margin-right: 20px;
+    width: 86vw;
+}
+
+.cart-right h1{
+    text-transform: uppercase;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 63px;
+    /* identical to box height */
+
+    border-bottom: 2px solid  #F1D5BB;;
+    color: #000000;
+    width: 135px;
+
+}
+
+.cart-right-card-container{
+    display: flex;
+
+}
+
+.cart-items{
+
+    width: 608px;
+    height: 608px;
+    background: #F1D5BB;
+    border-radius: 3px;
+    margin-top: 30px;
+
+}
+
+
+.each-cart-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 120px; */
+    padding: 29px 20px;
+}
+
+.item-details{
+    width: 170px;
+}
+
+.item-details h2{
+
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    margin-bottom: 8px;
+    color: #000000;
+
+}
+.item-details p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.item-quantity{
+    display: flex;
+    align-items: center;
+}
+
+.item-quantity input{
+    width: 46px;
+    height: 35px;
+}
+
+.sign{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+   padding: 0 12px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.sign:hover{
+   color: rgb(253, 6, 55);
+   font-weight: 900;
+}
+
+
+.cart-details{
+    width: 443px;
+    height: 606px;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-left: 70px;
+
+}
+
+
+
+.cart-details-top{
+
+    width: 443px;
+    height: 286px;
+    background: #F1D5BB;
+    border-radius: 3px;
+    padding-top: 12px;
+    padding-left: 40px;
+
+}
+
+.cart-details-top h2{
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.cart-details-top span{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+
+    margin-right: 20px;
+    color: rgba(0, 0, 0, 0.8);
+
+}
+
+.cart-details-top button{
+    width: 365px;
+    height: 78px;
+    background: #000000;
+    margin-top: 20px;
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+    color: #FFFFFF;
+    transition: all 0.25s;
+
+}
+.cart-details-top button:hover, .cart-details-bottom button:hover{
+    background-color:  #eeddce;
+    color: black;
+}
+
+
+.cart-details-bottom{
+    width: 443px;
+    height: 326px;
+    background: #FFFFFF;
+    border: 1px solid #F1D5BB;
+    border-radius: 3px;
+    padding-top: 12px;
+    padding-left: 40px;
+}
+
+.cart-details-bottom h2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    margin-bottom: 20px;
+
+}
+
+.cart-details-bottom input{
+    width: 365px;
+    height: 78px;
+    background: #FFFFFF;
+    border: 1px solid #F1D5BB;
+    padding-left: 16px;
+}
+
+.cart-details-bottom input::placeholder{
+        
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+
+
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.cart-details-bottom button{
+    width: 166px;
+    height: 78px;
+    background: #000000;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin-top: 34px;
+    transition: all 0.25s;
+}
